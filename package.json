@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "learn nodejs and framework expressjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannguyen31011999/nodejs-expressjs.git"
+  },
+  "author": "hannguyen3111999@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannguyen31011999/nodejs-expressjs/issues"
+  },
+  "homepage": "https://github.com/hannguyen31011999/nodejs-expressjs#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
