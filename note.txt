@@ -1,0 +1,2 @@
+****** Note Những Thứ Cần Thiết Trong Nodejs và Expressjs ******
+1. __dirname sẽ lấy đường dẫn hiện tại)

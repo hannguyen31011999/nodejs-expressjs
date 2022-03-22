@@ -4,7 +4,8 @@
   "description": "learn nodejs and framework expressjs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/main.scss src/public/css/main.css",
     "test": "test"
   },
   "repository": {
@@ -18,9 +19,12 @@
   },
   "homepage": "https://github.com/hannguyen31011999/nodejs-expressjs#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "node-sass": "^7.0.1"
   }
 }
